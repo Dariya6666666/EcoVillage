@@ -1,0 +1,96 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>EcoVillage</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            background-color: #e0f7e9;
+            padding: 20px;
+            color: #2e7d32;
+        }
+        .box {
+            background-color: white;
+            border: 2px solid #81c784;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #1b5e20;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4caf50;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #388e3c;
+        }
+        img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>EcoVillage 🌿</h1>
+
+    <div class="box">
+        <h2>📷 Фото школы</h2>
+        <img src="school.jpg" alt="Фото школы">
+    </div>
+
+    <div class="box">
+        <h2>🤝 Заявка в волонтерский клуб</h2>
+        <form>
+            <label>Имя:</label>
+            <input type="text">
+            <label>Почему вы хотите участвовать?</label>
+            <textarea rows="3"></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+
+    <div class="box">
+        <h2>🏆 Герой месяца</h2>
+        <p><strong>Дария из 9А убрала мусор возле магазина. Гордимся тобой!</p>
+    </div>
+
+    <div class="box">
+        <h2>💡 Предложи эко-идею</h2>
+        <form>
+            <textarea placeholder="Например: посадить деревья за школой"></textarea>
+            <button type="submit">Предложить</button>
+        </form>
+    </div>
+
+    <div class="box">
+        <h2>🗑 Где грязно? Сообщи!</h2>
+        <form>
+            <label>Место:</label>
+            <input type="text" placeholder="Адрес или описание">
+            <label>Фото проблемы:</label>
+            <input type="file">
+            <label>Описание:</label>
+            <textarea placeholder="Что случилось?"></textarea>
+            <button type="submit">Сообщить</button>
+        </form>
+    </div>
+
+</body>
+</html>
